@@ -1,19 +1,43 @@
-# Task2
+# Task6
 
-Write Type of each style?
+### Check if name is Good or Bad practice?
 
-<!-- ? -->
-### <link rel="stylesheet" href="css/file.css" />
+### Question 1
+
+.USERNAME {
+}
 
 Answer:
-External style
+Bad
 
-<!-- ? -->
-### <style>p {color: red;}</style>
-Answer:
-Internal style
+### Question 2
 
-<!-- ? -->
-### <p style="color: blue;">This Is Our Paragraph</p>
+.UserName {
+}
+
 Answer:
-Inline style
+Bad
+
+### Question 3
+
+.user-name {
+}
+
+Answer:
+Good
+
+### Question 4
+
+.userName {
+}
+
+Answer:
+Good
+
+### Question 5
+
+.usernameprofile {
+}
+
+Answer:
+Bad
