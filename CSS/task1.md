@@ -2,11 +2,11 @@
 
 There are many basic different types of selectors.
 
-    - Element Selector
-    - Id Selector
-    - Class Selector
-    - Universal Selector
-    - Group Selector
+    - Universal selector
+    - Type selector
+    - Class selector
+    - ID selector
+    - Attribute selector
 
 .title {
     Class Selector
@@ -18,12 +18,12 @@ There are many basic different types of selectors.
 
 
 div {
-    Element Selector
+    Type selector
 }
 
 
 h2 {
-    Element Selector
+    Type selector
 }
 
 # reference:
