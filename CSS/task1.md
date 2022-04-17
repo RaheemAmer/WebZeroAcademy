@@ -8,6 +8,8 @@ There are many basic different types of selectors.
     - Universal Selector
     - Group Selector
 
+<!-- 
+
 .title {
     Class Selector
 }
@@ -29,3 +31,6 @@ h2 {
 
 # reference:
 - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors 
+- https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors
+- https://www.w3.org/TR/selectors-3/
+ -->
