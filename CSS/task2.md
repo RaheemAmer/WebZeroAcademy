@@ -1,33 +1,19 @@
-# Task
+# Task2
 
-There are many basic different types of selectors.
+Write Type of each style?
 
-    - Universal selector
-    - Type selector
-    - Class selector
-    - ID selector
-    - Attribute selector
+<!-- ? -->
+### <link rel="stylesheet" href="css/file.css" />
 
-.title {
-    Class Selector
-}
+Answer:
+External style
 
-#nav {
-    Id Selector
-}
+<!-- ? -->
+### <style>p {color: red;}</style>
+Answer:
+Internal style
 
-
-div {
-    Type selector
-}
-
-
-h2 {
-    Type selector
-}
-
-# reference:
-- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors 
-- https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors
-- https://www.w3.org/TR/selectors-3/
-
+<!-- ? -->
+### <p style="color: blue;">This Is Our Paragraph</p>
+Answer:
+Inline style
