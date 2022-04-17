@@ -3,8 +3,7 @@
 Write Type of each style?
 
 <!-- ? -->
-### <link rel="stylesheet" href="css/file.css" />
-
+### link rel="stylesheet" href="css/file.css"/
 Answer:
 External style
 
