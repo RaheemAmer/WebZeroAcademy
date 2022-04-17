@@ -26,7 +26,7 @@ h2 {
     Element Selector
 }
 
-# reference
+# reference:
 - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors 
 - https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors
 - https://www.w3.org/TR/selectors-3/
