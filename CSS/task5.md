@@ -1,19 +1,52 @@
-# Task2
+# Task5
 
-Write Type of each style?
+### Check if name is valid or not?
 
-<!-- ? -->
-### <link rel="stylesheet" href="css/file.css" />
+### ?
+._user-name {
+}
 
 Answer:
-External style
+Not valid
 
-<!-- ? -->
-### <style>p {color: red;}</style>
-Answer:
-Internal style
+### ?
+.-user-name {
+}
 
-<!-- ? -->
-### <p style="color: blue;">This Is Our Paragraph</p>
 Answer:
-Inline style
+Not valid
+
+### ?
+.1user-name {
+}
+
+Answer:
+Not valid
+
+### ?
+.@user-name {
+}
+
+Answer:
+Not valid
+
+### ?
+.user@name {
+}
+
+Answer:
+valid
+
+### ?
+._user10name {
+}
+
+Answer:
+valid
+
+### ?
+.u {
+}
+
+Answer:
+valid
