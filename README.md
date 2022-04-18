@@ -1,3 +1,3 @@
 # WebZeroAcademy
-- [Road to mastering CSS](https://elzero.org/study/css-2021-study-plan/)
+- [Road to master CSS](https://elzero.org/study/css-2021-study-plan/)
 
