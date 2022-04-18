@@ -5,65 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task8</title>
+    <title>Task11</title>
     <style>
-        .container {
-            width: 400px;
-            border: 2px solid red;
-            margin: auto;
-            padding: 20px;
-            color: white;
+        .child .title {
+            color: red;
         }
-
-        .assign-2-shape-1 {
-            background-image: url(./assets/img1.png);
-            background-repeat: no-repeat;
-            width: 45%;
-            height: 180px;
-            padding: 10px;
-            margin: 5px;
-            border: 2px solid green;
+        
+        .parent>.title {
+            color: blue;
         }
-
-        .assign-2-shape-2 {
-            background-image: url(./assets/img1.png);
-            background-repeat: repeat-y;
-            width: 45%;
-            height: 380px;
-            padding: 10px;
-            margin: 5px;
-            border: 2px solid green;
-        }
-
-        .assign-2-shape-3 {
-            background-image: url(./assets/img1.png);
-            background-repeat: repeat-x;
-            width: 95%;
-            height: 180px;
-            padding: 10px;
-            margin: 5px;
-            border: 2px solid green;
-        }
-
-        .assign-2-shape-4 {
-            background-image: url(./assets/img1.png);
-            background-repeat: repeat;
-            width: 95%;
-            height: 380px;
-            padding: 10px;
-            margin: 5px;
-            border: 2px solid green;
+        
+        p,
+        .title {
+            color: green;
         }
     </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="assign-2-shape-1">Normal Div</div>
-        <div class="assign-2-shape-2">Normal Div</div>
-        <div class="assign-2-shape-3">Normal Div</div>
-        <div class="assign-2-shape-4">Normal Div</div>
+    <div class="parent">
+        <div class="child">This Is Child <span class="title">Title</span></div>
+        <span class="title">Child Title</span>
+        <p>Paragraph Content</p>
     </div>
+    <div class="title">Section Title</div>
+
+    <!-- There are four different combinators in CSS:
+
+    descendant selector (space)
+    child selector (>)
+    adjacent sibling selector (+)
+    general sibling selector (~) -->
 
 </body>
 
