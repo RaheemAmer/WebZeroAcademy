@@ -50,6 +50,18 @@
             background-color: #F5CF8E;
         }
         
+        .article-image {
+            float: left;
+            width: 300px;
+            height: 200px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            margin-bottom: 20px;
+        }
+        
         .footer {
             clear: both;
             height: 200px;
@@ -64,6 +76,25 @@
             height: 160px;
             background-color: #B2D6FF;
         }
+        
+        .avatar {
+            float: left;
+            width: 60px;
+            height: 60px;
+            margin: 25px;
+            border-radius: 40px;
+            background-color: #D6E9FE;
+        }
+        
+        .username {
+            margin-top: 30px;
+        }
+        
+        .comment {
+            margin: 10px;
+            overflow: hidden;
+            /* This is important */
+        }
         /* Medium blue */
         /* 
         Notice how the border is only around the .menu and .footer elements. It’s as if the floated elements weren’t even there. There are two ways to fix this: clearing a float and hiding overflow.
@@ -73,16 +104,34 @@
 
 <body>
     <div class='menu'>Menu</div>
-    <div class="container">
+    <div class='container'>
         <div class='page'>
-            <div class='sidebar'>Sidebar</div>
-            <div class='content'>Content</div>
+            <div class='sidebar'></div>
+            <div class='content'>
+
+                <img src='#' class='article-image' />
+
+                <p>Ad netus sagittis velit orci est non ut urna taciti metus donec magnis hendrerit adipiscing mauris sit a proin ultrices nibh.</p>
+
+                <p>Enim suspendisse ac scelerisque nascetur vestibulum parturient sed mi a dolor eu non adipiscing non neque scelerisque netus ullamcorper sed parturient integer.Eros dui risus non sodales ullamcorper libero a dis cubilia a orci iaculis cursus.</p>
+
+                <p>Egestas at aliquam a egestas accumsan cum elementum consectetur conubia tristique eu et vitae condimentum in ante consectetur suscipit a a duis vestibulum gravida morbi sagittis.Parturient scelerisque facilisis ullamcorper a a pretium
+                    a nisl parturient semper senectus accumsan ipsum mus scelerisque eget ridiculus.Accumsan dolor a.
+                </p>
+
+                <p>Ligula taciti vel primis sit a tincidunt habitant parturient parturient in parturient ante nulla consectetur sem.Facilisis parturient litora.</p>
+
+            </div>
         </div>
     </div>
+
     <div class='footer'>
-        <div class='column'></div>
-        <div class='column'></div>
-        <div class='column'></div>
+        <div class='column'>
+            <div class='avatar'></div>
+            <h3 class='username'>Bob Smith</h3>
+            <p class='comment'>Aptent vel egestas vestibulum aliquam ullamcorper volutpat ullamcorper pharetra hac posuere a rhoncus purus molestie torquent. Scelerisque purus cursus dictum ornare a phasellus. A augue venenatis adipiscing.</p>
+        </div>
+
     </div>
 </body>
 <!-- 
