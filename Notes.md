@@ -195,7 +195,7 @@ div:hover{
 CSS units
 px
 percentage
-em => time
+em => time = takes initial values from parent
 rem => root time - takes initial values from parent which is html tag
 vw => viewport width
 vh => viewport height
