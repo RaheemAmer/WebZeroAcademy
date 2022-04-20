@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8' />
+    <title>Floats</title>
+    <style>
+        * {
+            /* resets default box behavior */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .container {
+            background-color: #EAEDF0;
+            overflow: hidden;
+        }
+        
+        .page {
+            /* Add this */
+            width: 900px;
+            /* Add this */
+            margin: 0px auto;
+            border: 1px solid red;
+            /*  The height of our floated elements don’t contribute to the vertical position of the footer */
+        }
+        
+        .menu {
+            height: 100px;
+            background-color: #B2D6FF;
+            /* Medium blue */
+        }
+        
+        .sidebar {
+            margin-left: 10px;
+            float: left;
+            width: 200px;
+            /* Add this */
+            height: 300px;
+            background-color: #F09A9D;
+        }
+        
+        .content {
+            margin-right: 10px;
+            float: right;
+            width: 650px;
+            /* Add this */
+            height: 500px;
+            background-color: #F5CF8E;
+        }
+        
+        .footer {
+            clear: both;
+            height: 200px;
+            background-color: #D6E9FE;
+            /* Light blue */
+        }
+        
+        .column {
+            float: left;
+            width: 31%;
+            margin: 20px 1.15%;
+            height: 160px;
+            background-color: #B2D6FF;
+        }
+        /* Medium blue */
+        /* 
+        Notice how the border is only around the .menu and .footer elements. It’s as if the floated elements weren’t even there. There are two ways to fix this: clearing a float and hiding overflow.
+        */
+    </style>
+</head>
+
+<body>
+    <div class='menu'>Menu</div>
+    <div class="container">
+        <div class='page'>
+            <div class='sidebar'>Sidebar</div>
+            <div class='content'>Content</div>
+        </div>
+    </div>
+    <div class='footer'>
+        <div class='column'></div>
+        <div class='column'></div>
+        <div class='column'></div>
+    </div>
+</body>
+<!-- 
+Empty divs with no content = blank space why because no content equals no height
+-->
+
+<!-- 
+Block-level alignment:
+left align = float:left;
+Center align = margin: 0px auto;
+Right align = float: right;
+-->
+
+<!-- 
+The solution is the CSS overflow property. By adding an overflow: hidden declaration to a container div
+, -->
+
+<!-- 
+Reference:
+https://www.internetingishard.com/html-and-css/floats/
+-->
+
+</html>
