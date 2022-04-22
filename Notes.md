@@ -106,8 +106,22 @@ Notes:
 
 vertical-align:middle because it's not applicable to block-level elements
 margin-top:auto and margin-bottom:auto because their used values would compute as zero
-margin-top:-50% because percentage-based margin values are calculated relative to the width of containing block 
+margin-top:-50% because percentage-based margin values are calculated relative to the width of containing block
 If the display of your parent container is flex, then yes, margin: auto auto (also known as margin: auto) will work to center it both horizontally and vertically, regardless if it is an inline or block element.
+
+<!-- #parent {
+    width: 50vw;
+    height: 50vh;
+    background-color: gray;
+    display: flex;
+}
+#child {
+    margin: auto auto;
+} -->
+
+<!-- <div id="parent">
+    <div id="child">hello world</div>
+</div> -->
 
 ------------------------------------------------------------------------------------
 
