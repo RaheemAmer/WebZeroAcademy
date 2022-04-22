@@ -371,4 +371,8 @@ we have to add content in order to nake the element appear
 
 <!--
 counter-increment: members-counter;
+counter(members-counter);
+--------------------------
+data-transfer:"text"
+content: attr(data-text);
 -->
