@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task25</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: capitalize;
+        }
+        
+        .container {
+            border: 1px solid #CCCCCC;
+            width: 720px;
+            margin: 10px auto;
+            text-align: center;
+        }
+        
+        table {
+            margin: 10px auto;
+            width: 700px;
+            border-bottom: 2px solid #3DAFA4;
+        }
+        
+        thead {
+            background-color: #404040;
+            color: #F9FBFC;
+        }
+        
+        thead th {
+            padding: 15px 5px;
+            width: 100px;
+            font-size: 19x;
+        }
+        
+        tbody,
+        tfoot {
+            background-color: #EEEEEE;
+        }
+        
+        td {
+            height: 50px;
+            padding: 5px;
+        }
+        
+        img {
+            width: 60%;
+        }
+        
+        #btn-1 {
+            color: white;
+            background-color: #03A9F4;
+            width: fit-content;
+            padding: 5px 10px;
+            border: none;
+            font-weight: 600;
+        }
+        
+        #btn-2 {
+            color: white;
+            background-color: #E91E63;
+            width: fit-content;
+            padding: 5px 10px;
+            border: none;
+            font-weight: 600;
+        }
+        
+        h4 {
+            padding: 10px;
+        }
+        
+        #control-width {
+            width: 140px;
+        }
+        
+        #name-width {
+            width: 140px;
+        }
+        
+        #group-width,
+        #points-width {
+            width: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h4>Developers rating </h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>Avatar</th>
+                    <th id="group-width">Group</th>
+                    <th id="name-width">Name</th>
+                    <th id="points-width">Points</th>
+                    <th id="control-width">Control</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="./assets/anime-boy.png" alt="Anime-character"></td>
+                    <td>Ninja</td>
+                    <td>Ahmed Mohamed</td>
+                    <td>120</td>
+                    <td>
+                        <div class="control-buttons">
+                            <button id="btn-1">View</button>
+                            <button id="btn-2">Delete</button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="./assets/anime-boy.png" alt="Anime-character"></td>
+                    <td id="col-span" rowspan="2">Shades</td>
+                    <td>Shady Nabil</td>
+                    <td>180</td>
+                    <td>
+                        <div class="control-buttons">
+                            <button id="btn-1">View</button>
+                            <button id="btn-2">Delete</button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="./assets/anime-girl.png" alt="Anime-character"></td>
+                    <td>Eman Mohamed</td>
+                    <td>160</td>
+                    <td>
+                        <div class="control-buttons">
+                            <button id="btn-1">View</button>
+                            <button id="btn-2">Delete</button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="./assets/anime-boy.png" alt="Anime-character"></td>
+                    <td rowspan="2">valhala</td>
+                    <td>Mohamed Ibrahim</td>
+                    <td>190</td>
+                    <td>
+                        <div class="control-buttons">
+                            <button id="btn-1">View</button>
+                            <button id="btn-2">Delete</button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="./assets/anime-girl.png" alt="Anime-character"></td>
+                    <td>noor atef</td>
+                    <td>110</td>
+                    <td>
+                        <div class="control-buttons">
+                            <button id="btn-1">View</button>
+                            <button id="btn-2">Delete</button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><img src="./assets/anime-boy.png" alt="Anime-character"></td>
+                    <td>union</td>
+                    <td> mahmoud adel</td>
+                    <td>90</td>
+                    <td>
+                        <div class="control-buttons">
+                            <button id="btn-1">View</button>
+                            <button id="btn-2">Delete</button>
+                        </div>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+
+</html>
