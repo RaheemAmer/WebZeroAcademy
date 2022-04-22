@@ -252,8 +252,11 @@ if we want margin-left: 15px;
 100% - 90px available space
 5 elements width:calc((100% - 90px) / 5);
 
+<!-- 
 control opacity in background-color using rgba (alpha) only controls color intensity
-control opacity for the whole content using opacity
+control opacity for the whole content using opacity 
+-->
+
 1 is the largest - while 0 is the least amount of value
 use case:
 like modal in bootstrap
