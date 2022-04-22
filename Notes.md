@@ -123,6 +123,13 @@ If the display of your parent container is flex, then yes, margin: auto auto (al
     <div id="child">hello world</div>
 </div> -->
 
+Mastering the css calculations:
+
+- Content width is 100%
+- Space needed (5) = (1% * 5) = (5%)
+- Available Space = 95%
+- Width for each element(4 elements) = (95%/4)
+
 ------------------------------------------------------------------------------------
 
 Cover -> gonna stretch the dimensions of the image

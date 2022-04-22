@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Calculations</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        div {
+            padding: 10px 0px;
+            text-align: center;
+            background-color: #eee;
+            float: left;
+            width: calc((100% - 75px)/4);
+            margin-left: 15px;
+        }
+        /* 
+            Content width is 100%
+            Space needed (5) = (1% * 5) = (5%)
+            Available Space = 95%
+            Width for each element(4 elements) = (95%/4)
+            ---
+            Fixed margin pixels
+            margin-left: 15px;
+
+            Content width is 100%
+            Space needed (5) and 15px (margin) = (15 * 5) = (75 px)
+            Available Space = (100% - 75px)
+            Width for each element(4 elements) = ((100% - 75px)/4)
+        */
+    </style>
+</head>
+
+<body>
+    <div>Product One</div>
+    <div>Product Two</div>
+    <div>Product Three</div>
+    <div>Product Four</div>
+    <!-- <div>Product Fifth</div> -->
+</body>
+
+</html>
