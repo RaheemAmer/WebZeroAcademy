@@ -11,16 +11,41 @@
             margin: 0;
             padding: 0;
             box-sizing: content-box;
-        }
-        
-        ul {
-            width: 400px;
-            margin: 10px auto;
-            background-color: #EEEEEE;
+            font-family: Arial, Helvetica, sans-serif;
         }
         
         li {
-            list-style-type: none;
+            width: 400px;
+            margin: 10px auto;
+            background-color: #EEEEEE;
+            list-style: none;
+            padding: 10px;
+        }
+        
+        .list-items-first-row {
+            margin-left: 30px;
+            width: 350px;
+            list-style: decimal;
+            background-color: #FFFFFF;
+            padding: 4px 10px;
+            font-size: 14px;
+        }
+        
+        .list-items-second-row {
+            margin-left: 30px;
+            width: 350px;
+            list-style: upper-roman;
+            background-color: #FFFFFF;
+            padding: 4px 10px;
+            font-size: 14px;
+        }
+        
+        .list-items-third-row {
+            width: 380px;
+            list-style: circle inside;
+            background-color: #FFFFFF;
+            padding: 4px 10px;
+            font-size: 14px;
         }
     </style>
 </head>
@@ -30,24 +55,24 @@
         <li>
             HTML
             <ol>
-                <li>Slim</li>
-                <li>Pugjs</li>
-                <li>HAML</li>
+                <li class="list-items-first-row" value="10">Slim</li>
+                <li class="list-items-first-row" value="11">Pugjs</li>
+                <li class="list-items-first-row" value="12">HAML</li>
             </ol>
         </li>
         <li>
             CSS
             <ol>
-                <li>SASS</li>
-                <li>LESS</li>
-                <li>PostCSS</li>
+                <li class="list-items-second-row" value="10">SASS</li>
+                <li class="list-items-second-row" value="11">LESS</li>
+                <li class="list-items-second-row" value="12">PostCSS</li>
             </ol>
         </li>
         <li>
             JavaScript
             <ul>
-                <li>Vuejs</li>
-                <li>Sveltejs</li>
+                <li class="list-items-third-row">Vuejs</li>
+                <li class="list-items-third-row">Sveltejs</li>
             </ul>
         </li>
     </ul>
