@@ -27,30 +27,31 @@
             float: left;
             overflow: hidden;
             position: relative;
+            counter-increment: members-counter;
         }
         
         .parent::before {
-            content: "";
+            content: attr(data-text);
             /* width: 20px; */
             /* height: 20px; */
-            position: absolute;
+            /* position: absolute;
             left: -10px;
             top: 50%;
             margin-top: -10px;
             border-width: 10px;
             border-style: solid;
-            border-color: transparent green transparent transparent;
+            border-color: transparent green transparent transparent; */
         }
         
         .parent::after {
-            content: "";
-            position: absolute;
+            content: counter(members-counter);
+            /* position: absolute;
             top: 0px;
             right: 0px;
             background-color: gold;
             width: 5px;
             height: 100%;
-            margin: 10px auto;
+            margin: 10px auto; */
         }
     </style>
 </head>
@@ -64,7 +65,7 @@
     </div>
     <div class="parent">
         <div class="user">A</div>
-        <div class="one">
+        <div class="one" data-text="something">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam nihil omnis sint. Debitis voluptas labore iste, perferendis temporibus alias tempora quidem doloribus molestias repellendus nostrum molestiae, optio incidunt? Laudantium, nulla!
         </div>
     </div>
