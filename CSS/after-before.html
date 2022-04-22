@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-element</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        /* 
+        100% content width
+        3 spaces - 40 px = 120px
+        100%-120px -> 3 elements
+        calc((100%-120px)/3)
+        */
+        
+        .parent {
+            width: calc((90% - 120px)/3);
+            padding: 10px;
+            margin: 20px;
+            background-color: aqua;
+            float: left;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .parent::before {
+            content: "";
+            /* width: 20px; */
+            /* height: 20px; */
+            position: absolute;
+            left: -10px;
+            top: 50%;
+            margin-top: -10px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: transparent green transparent transparent;
+        }
+        
+        .parent::after {
+            content: "";
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            background-color: gold;
+            width: 5px;
+            height: 100%;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="user">O</div>
+        <div class="one">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam nihil omnis sint. Debitis voluptas labore iste, perferendis temporibus alias tempora quidem doloribus molestias repellendus nostrum molestiae, optio incidunt? Laudantium, nulla!
+        </div>
+    </div>
+    <div class="parent">
+        <div class="user">A</div>
+        <div class="one">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam nihil omnis sint. Debitis voluptas labore iste, perferendis temporibus alias tempora quidem doloribus molestias repellendus nostrum molestiae, optio incidunt? Laudantium, nulla!
+        </div>
+    </div>
+    <div class="parent">
+        <div class="user">E</div>
+        <div class="one">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam nihil omnis sint. Debitis voluptas labore iste, perferendis temporibus alias tempora quidem doloribus molestias repellendus nostrum molestiae, optio incidunt? Laudantium, nulla!
+        </div>
+    </div>
+</body>
+
+</html>

@@ -358,3 +358,13 @@ background-color: yellow;
 }
 
 Pseudo elements (most important) (before, after and content)
+
+---------------------------------------------
+
+after and before pseudo element:
+we have to add content in order to nake the element appear
+<!-- 
+.one::after{
+    content:""
+}
+-->
