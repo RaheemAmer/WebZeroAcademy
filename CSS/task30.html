@@ -5,50 +5,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task29</title>
+    <title>task30</title>
     <style>
         * {
-            margin: 10px auto;
-            padding: 0;
+            margin: 0px;
+            padding: 0px;
             box-sizing: border-box;
             font-family: Arial, Helvetica, sans-serif;
             text-transform: capitalize;
         }
         
-        p {
-            width: 650px;
-            height: 65px;
-            padding: 20px;
-            background-color: #EFEFEF;
-            font-size: 25px;
-            border-right: 5px solid #F44336;
-            margin: 20px auto;
-            position: relative;
-            counter-increment: number;
+        .container {
+            text-align: center;
         }
         
-        p::before {
+        div {
+            width: 100px;
+            height: 100px;
+            counter-increment: number;
+            position: relative;
+            background-color: #EEEEEE;
+            border: 2px solid black;
+            border-radius: 50%;
+            margin: 20px;
+            display: inline-block;
+            box-shadow: -5px -4px #E91E63, 5px 4px #2196F3;
+        }
+        
+        div::before {
             content: counter(number);
             position: absolute;
-            left: -90px;
-            top: 0px;
-            background-color: #F44336;
-            padding: 20px;
-            width: 50px;
-            height: 25px;
+            top: -10px;
+            left: 37px;
+            width: 18px;
+            height: 17px;
             color: white;
-            text-align: center;
+            background-color: black;
+            padding: 2px;
+            border-radius: 50%;
+        }
+        
+        div::after {
+            content: "Element";
+            position: absolute;
+            bottom: 39px;
+            right: 18px;
         }
     </style>
 </head>
 
 <body>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
+    <main class="container">
+        <div></div>
+        <div></div>
+        <div></div>
+    </main>
+
 </body>
 
 </html>
