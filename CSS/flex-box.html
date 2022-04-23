@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-box</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .menu-container {
+            color: #fff;
+            background-color: #5995DA;
+            /* Blue */
+            padding: 20px 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .menu {
+            /* border: 1px solid #fff; */
+            width: 900px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .links {
+            /* border: 1px solid #fff; */
+            /* For debugging */
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        .login {
+            margin-left: 20px;
+        }
+        
+        .header-container {
+            color: #5995DA;
+            background-color: #D6E9FE;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .header {
+            width: 900px;
+            height: 300px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .photo-grid-container {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .photo-grid {
+            width: 900px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            justify-content: start;
+        }
+        
+        .photo-grid-item {
+            border: 1px solid #fff;
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='menu-container'>
+        <div class='menu'>
+            <div class='date'>Aug 14, 2016</div>
+            <div class='links'>
+                <div class='signup'>Sign Up</div>
+                <!-- This is nested now -->
+                <div class='login'>Login</div>
+                <!-- This one too! -->
+            </div>
+        </div>
+    </div>
+    <div class='header-container'>
+        <div class='header'>
+            <div class='subscribe'>Subscribe &#9662;</div>
+            <div class='logo'><img src='./assets/images/awesome-logo.svg' /></div>
+            <div class='social'><img src='./assets/images/social-icons.svg' /></div>
+        </div>
+    </div>
+    <div class='photo-grid-container'>
+        <div class='photo-grid'>
+            <div class='photo-grid-item first-item'>
+                <img src='./assets/images/one.svg' />
+            </div>
+            <div class='photo-grid-item'>
+                <img src='./assets/images/two.svg' />
+            </div>
+            <div class='photo-grid-item'>
+                <img src='./assets/images/three.svg' />
+            </div>
+            <div class='photo-grid-item'>
+                <img src='./assets/images/four.svg' />
+            </div>
+            <div class='photo-grid-item last-item'>
+                <img src='./assets/images/five.svg' />
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

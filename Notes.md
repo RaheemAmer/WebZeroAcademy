@@ -412,4 +412,54 @@ if you didn't add height - it will take value from padding
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
- -->
+-->
+
+flex-box uses two new properties:
+flex-containers and flex-items
+flex-container => group a bunch of flex-items together and positions them
+
+<!-- 
+Every direct child of container is an item, flex item can be manipulated individually (container determines the layout)
+
+to activate the flexbox functionality in your div, write display: flex to control it
+
+Explicitly defining flex containers means that you can mix and match flexbox with other layout models (e.g., floats and everything we’re going to learn in Advanced Positioning).
+
+Flex can change their alignment, direction, order, and size
+
+Define the flex-container: (go to the parent div)
+display:flex;
+
+Aligning a flex-item: (Define a horizontal alignment for the flex-item, also in the parent div)
+justify-content: center; 
+(same effect as adding margin: 0px auto;), (flex-start, center, flex-end, space-around, space-between)
+
+Using multiple flex-items together:
+justify-content: space-around and space-between;
+
+Flex-containers only understand how to position one level deep children elements, doesn't care what's inside the 
+flex-item, grouping flex-items is different
+
+Vertical-alignment:
+using align-items
+    center
+    flex-start   (top)
+    flex-end      (bottom)
+    stretch
+    baseline
+
+flex-wrap: nowrap or wrap
+
+Direction (row, column)
+  flex-direction: column;
+
+(in column)
+flex-direction: column;
+justify-content:center;
+align-items: flex-start;
+
+ (in rows)
+ flex-direction: row;
+ align-items:center;
+ justify-content: flex-start;
+-->
