@@ -376,3 +376,40 @@ counter(members-counter);
 data-transfer:"text"
 content: attr(data-text);
 -->
+
+<!--
+Vendor prefix:
+ ------------------------ 
+ prefix is used until the property is fully ready
+(webkit = chrome, safari, new opera version)
+(mos = firefox)
+(ms = ie, edge)
+(o = old version of opera)
+------------------------
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+-o-border-radius: 10px;
+-ms-border-radius: 10px;
+border-radius: 10px;
+------------------------
+Task runner - auto implement prefix for css
+border-top-left-radius: 20px 10px;
+------------------------
+Box-shadow has more values than text-shadow  
+h-shadow
+v-shadow
+blur
+spread
+color
+inset or outset
+box-shadow: 10px 10px 5px 10px grey, 10px 10px 5px 10px grey ;
+------------------------
+default => box-sizing: content-box (any margin, padding or border is added to width and height)
+if you didn't add height - it will take value from padding 
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ -->
