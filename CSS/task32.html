@@ -5,50 +5,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task29</title>
+    <title>task23</title>
     <style>
         * {
-            margin: 10px auto;
-            padding: 0;
+            margin: 0px;
+            padding: 0px;
             box-sizing: border-box;
+            text-align: center;
             font-family: Arial, Helvetica, sans-serif;
             text-transform: capitalize;
         }
         
-        p {
-            width: 650px;
-            height: 65px;
-            padding: 20px;
-            background-color: #EFEFEF;
-            font-size: 25px;
-            border-right: 5px solid #F44336;
-            margin: 20px auto;
-            position: relative;
-            counter-increment: number;
+        .container {
+            width: 700px;
+            margin: 40px auto;
         }
         
-        p::before {
-            content: counter(number);
-            position: absolute;
-            left: -90px;
-            top: 0px;
-            background-color: #F44336;
-            padding: 20px;
-            width: 50px;
-            height: 25px;
+        .card-background {
+            width: 250px;
+            height: 300px;
+            background-color: #EEEEEE;
+            float: inline-start;
+            margin-right: 50px;
+        }
+        
+        .card-item {
+            margin: 25px 25px;
+            position: relative;
+        }
+        
+        .label {
             color: white;
-            text-align: center;
+            background-color: #03A9F4;
+            width: 200px;
+            padding: 15px;
+            font-weight: bold;
+            border-radius: 10px;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .price-tag {
+            width: 200px;
+            height: 180px;
+            background-color: #DDDDDD;
+            color: black;
+            border-radius: 50%;
+            font-size: 35px;
+            padding: 70px 0px;
+            margin-top: 20px;
+        }
+        
+        .border {
+            position: absolute;
+            border: 1px solid #03A9F4;
+            height: 300px;
+            right: 55%;
+        }
+        
+        .border::before {
+            content: "or";
+            position: absolute;
+            width: 26px;
+            background-color: #03A9F4;
+            color: white;
+            border-radius: 50%;
+            height: 22px;
+            font-size: 13px;
+            padding-top: 4px;
+            padding: 5px 2px 0px 2px;
+            top: 50%;
+            margin: -15px;
+            font-weight: bold;
         }
     </style>
 </head>
 
 <body>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
+    <div class="container">
+        <div class="card-background">
+            <div class="card-item">
+                <p class="label">
+                    basic
+                </p>
+                <p class="price-tag">
+                    free
+                </p>
+            </div>
+        </div>
+        <div class="border"></div>
+        <div class="card-background">
+            <div class="card-item">
+                <p class="label">
+                    pro
+                </p>
+                <p class="price-tag">
+                    $30
+                </p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
