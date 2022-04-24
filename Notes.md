@@ -482,5 +482,14 @@ Properties:
     Use order to customize the order of individual elements.
     Use align-self to vertically align individual items.
     Use flex to create flexible boxes that can stretch and shrink.
+-->
+
+<!-- 
 
 -->
+
+<!-- 
+Reference:
+https://www.internetingishard.com/html-and-css/flexbox/
+https://www.educative.io/courses/understanding-flexbox-everything-you-need-to-know/B8nngXNzgQX
+ -->
