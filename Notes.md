@@ -525,15 +525,62 @@ It aligns flex-items along their baseline
     By definition, it controls how the flex-items are aligned in a multi-line flex container.
 -->
 
-
 <!-- 
 5 different properties the flex items can take on.
 
     1. Order#
+    order: 1;
     The order property allows for reordering the flex items within a container.
+
+    2. Flex grow and flex shrink#
+    flex-grow: 1;
+    The flex-grow and flex-shrink properties control how much a flex-item should “grow” (extend) if there are extra spaces, or “shrink” if there are no extra spaces.
+    They may take up any values ranging from 0 to any positive number. 0 || positive number
+    By default, the flex-grow property is set to 0. By implication, the flex-item does NOT grow to fit the entire space available.
+    The value 0is like a “turn-off” switch. The flex-grow switch is turned off.However, if you changed the flex-grow value to 1, here’s what happens.
+    similar to width: fit-content;
+
+    3. Flex basis#
+    flex-basis: auto; percentages || ems || rems || pixels
+    The flex-basis property specifies the initial size of a flex-item. Before the flex-grow or flex-shrink properties adjust it’s size to fit the container or not.
+
+    4. The flex shorthand#
+    The flex shorthand allows you set the flex-grow, flex-shrink and flex-basis properties all at once.
+    flex: 0 1 auto;
+
+    //this is an absolute flex item
+    li {
+    flex: 1 1; //flex-basis defaults to 0;
+    }
+
+    //this is a relative flex item
+    li {
+    flex-basis: 200px; //only flex-basis is set
+    }
+
+    5. Align-self#
+    	align-self: auto || flex-start || flex-end || center || baseline || stretch
+    What if you wanted to change the position of a single flex-item along the cross-axis, without affecting the neighboring flex-items?
  -->
+
+<!--
+The spacing within a relative flex item is computed based on it’s content size. In an absolute flex item, it is based solely on “flex”, not content. 
+-->
+
+<!-- 
+Beware of margin: auto alignment on flex items.
+Remember what I said earlier? When you use margin:auto on a flex-item, the direction (left, right or both) that has the value auto will take up any empty spaces available. It doesn’t end with just one side. What if you wanted a margin auto alignment on both sides of a flex-item?
+-->
+
+<!--
+Examples:
+    Bootstrapped Navigation
+    AirBnB desktop Navigation
+    Twitter desktop Navigation
+-->
 <!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/
 https://www.educative.io/courses/understanding-flexbox-everything-you-need-to-know/B8nngXNzgQX
+https://www.educative.io/courses/understanding-flexbox-everything-you-need-to-know/m2OD8lPmjO3
  -->
