@@ -442,24 +442,45 @@ flex-item, grouping flex-items is different
 
 Vertical-alignment:
 using align-items
-    center
-    flex-start   (top)
-    flex-end      (bottom)
-    stretch
-    baseline
+center
+flex-start (top)
+flex-end (bottom)
+stretch
+baseline
 
 flex-wrap: nowrap or wrap
 
 Direction (row, column)
-  flex-direction: column;
+flex-direction: column;
 
 (in column)
 flex-direction: column;
 justify-content:center;
 align-items: flex-start;
 
- (in rows)
- flex-direction: row;
- align-items:center;
- justify-content: flex-start;
+(in rows)
+flex-direction: row;
+align-items:center;
+justify-content: flex-start;
+
+flex property:
+no-flex
+equal-flex
+unequal-flex
+
+We can even mix-and-match flexible boxes with fixed-width ones
+flex: initial
+
+Flex Items and Auto-Margins(Auto-margins in flexbox are special. They can be used as an alternative to an extra <div> when trying to align a group of items to the left/right of a container. )
+-----------------------
+Properties:
+    Use display: flex; to create a flex container.
+    Use justify-content to define the horizontal alignment of items.
+    Use align-items to define the vertical alignment of items.
+    Use flex-direction if you need columns instead of rows.
+    Use the row-reverse or column-reverse values to flip item order.
+    Use order to customize the order of individual elements.
+    Use align-self to vertically align individual items.
+    Use flex to create flexible boxes that can stretch and shrink.
+
 -->
