@@ -485,9 +485,53 @@ Properties:
 -->
 
 <!-- 
+main-axis =>  “horizontal”
+cross axis => “vertical”
+ -->
 
+<!-- 
+6 different properties the flex container can take on.
+
+1. Flex-direction#
+  flex-direction: row || column || row-reverse || column-reverse;
+  Technically, “horizontal” and “vertical” isn’t what the directions are called in the “flex world”.
+  These are described as main-axis and cross axis
+
+2. Flex-wrap#
+    flex-wrap: wrap || no-wrap || wrap-reverse;
+    This is because the flex-wrap property defaults to nowrap. This causes the flex container to NOT wrap.
+    the flex-items now break up into multiple lines when needed. after using flex-wrap: wrap;
+
+3. Flex-flow#
+	flex-flow: row wrap; /*direction 'row' and yes, please wrap the items.*/
+    The flex-flow is a shorthand property which takes flex-direction and Flex-wrap values.
+
+4. Justify-content#
+    justify-content: flex-start || flex-end || center || space-between || space-around
+    The justify content property defines how flex items are laid out on the main axis.
+
+5. Align-items#
+	align-items: flex-start || flex-end || center || stretch || baseline
+    It defines how flex-items are laid out on the cross axis.
+
+Stretch#
+The default value is stretch. This will “stretch” the flex-items so they fill the entire height of the flex container.
+
+Baseline#
+It aligns flex-items along their baseline
+
+6. Align-content#
+    Align-content: flex-start || flex-end || center || stretch || baseline
+    By definition, it controls how the flex-items are aligned in a multi-line flex container.
 -->
 
+
+<!-- 
+5 different properties the flex items can take on.
+
+    1. Order#
+    The order property allows for reordering the flex items within a container.
+ -->
 <!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/
