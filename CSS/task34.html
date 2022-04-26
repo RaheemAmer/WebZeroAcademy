@@ -5,32 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>task34-another solution</title>
+    <title>task34</title>
     <style>
         div {
-            background-color: red;
-            color: white;
-            padding: 20px;
-            border: 1px solid blue;
-            font-size: 80px;
-            text-align: center;
-            text-transform: capitalize;
+            background-color: #EEEEEE !important;
+            color: rgba(0, 0, 0, 0) !important;
+            border: none !important;
+            font-size: 20px !important;
+            font-weight: bold;
+            width: 400px;
+            margin: 50px auto;
+            position: relative;
         }
         
-        div:hover span {
-            display: none;
-        }
-        
-        div:hover:before {
-            content: "elzero";
+        div::after {
+            margin: 50px auto;
+            content: "Elzero";
             color: black;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, -25px);
         }
     </style>
 </head>
 
 <body>
-    <div>
-        <span> Hello Div</span>
+    <div style="
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border: 1px solid blue;
+    font-size: 80px;">
+        Hello Div
     </div>
 </body>
 

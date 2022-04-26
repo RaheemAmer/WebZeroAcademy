@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task34-another solution</title>
+    <style>
+        div {
+            background-color: red;
+            color: white;
+            padding: 20px;
+            border: 1px solid blue;
+            font-size: 80px;
+            text-align: center;
+            text-transform: capitalize;
+        }
+        
+        div:hover span {
+            display: none;
+        }
+        
+        div:hover:before {
+            content: "elzero";
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <span> Hello Div</span>
+    </div>
+</body>
+
+</html>
