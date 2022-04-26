@@ -5,50 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task29</title>
+    <title>task35</title>
     <style>
-        * {
-            margin: 10px auto;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, Helvetica, sans-serif;
-            text-transform: capitalize;
+         :root {
+            --mainColor: #009688;
+            --mainPadding: 10px;
+            --mainMargin: 10px;
         }
         
-        p {
-            width: 650px;
-            height: 65px;
-            padding: 20px;
-            background-color: #EFEFEF;
-            font-size: 25px;
-            border-right: 5px solid #F44336;
-            margin: 20px auto;
-            position: relative;
-            counter-increment: number;
-        }
-        
-        p::before {
-            content: counter(number);
-            position: absolute;
-            left: -90px;
-            top: 0px;
-            background-color: #F44336;
-            padding: 20px;
-            width: 50px;
-            height: 25px;
-            color: white;
-            text-align: center;
+        div {
+            color: var(--mainColor, #FF3C1A);
+            border: 3px solid var(--mainColor, black);
+            padding: var(--mainPadding, 10px);
+            margin: var(--mainMargin, 10px);
         }
     </style>
 </head>
 
 <body>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
+    <div>Element</div>
+    <div>Element</div>
+    <div>Element</div>
 </body>
 
 </html>
