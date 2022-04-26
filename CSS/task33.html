@@ -5,50 +5,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task29</title>
+    <title>task33</title>
     <style>
         * {
-            margin: 10px auto;
-            padding: 0;
+            margin: 0px;
+            padding: 0px;
             box-sizing: border-box;
-            font-family: Arial, Helvetica, sans-serif;
             text-transform: capitalize;
         }
+        /* Transition:
+                Duration
+                Property
+                Delay
+                Timing Function 
+                */
         
-        p {
-            width: 650px;
-            height: 65px;
+        .parent {
             padding: 20px;
-            background-color: #EFEFEF;
-            font-size: 25px;
-            border-right: 5px solid #F44336;
-            margin: 20px auto;
-            position: relative;
-            counter-increment: number;
+            width: 350px;
+            height: 200px;
+            background-color: #F2F2F4;
+            text-align: center;
+            transition: margin-top 2s;
+            margin-left: auto;
+            margin-right: auto;
         }
         
-        p::before {
-            content: counter(number);
-            position: absolute;
-            left: -90px;
-            top: 0px;
-            background-color: #F44336;
-            padding: 20px;
-            width: 50px;
-            height: 25px;
-            color: white;
-            text-align: center;
+        .child {
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+            height: auto;
+            padding: 15px;
+            background-color: #DEDEDC;
+            transition: margin-top 2s;
+        }
+        
+        .parent:hover,
+        .child:hover {
+            margin-top: 20px;
         }
     </style>
 </head>
 
 <body>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
+    <div class="parent">
+        Will go up on hover in half second
+        <div class="child">
+            Will go down after half second
+        </div>
+    </div>
 </body>
 
 </html>
