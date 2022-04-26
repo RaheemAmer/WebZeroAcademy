@@ -588,9 +588,32 @@ Timing Function
 -->
 
 <!-- 
-
+Margin-collapse:
+[1] only happens in vertical alignment
+[2] bigger margin wins
+[3] happens only if they are right below each other (no divider between them)
+[4] nesting doesn't stop margin collapsing from happening
 -->
 
+<!-- 
+Css variables:
+    Global Variable
+    Local Variables
+
+}
+(Global)
+:root{
+    --mainColor: blue;
+    --secondaryColor: yellow
+
+var(variable name, fallback value)
+var(mainColor, red)
+
+(Local)
+.local{
+    color: var(--mainColor);
+}
+-->
 
 <!-- 
 Reference:
