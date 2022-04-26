@@ -509,7 +509,7 @@ cross axis => “vertical”
     The flex-flow is a shorthand property which takes flex-direction and Flex-wrap values.
 
 4. Justify-content#
-    justify-content: flex-start || flex-end || center || space-between || space-around
+    justify-content: flex-start || flex-end || center || space-between || space-around || space-evenly
     The justify content property defines how flex items are laid out on the main axis.
 
 5. Align-items#

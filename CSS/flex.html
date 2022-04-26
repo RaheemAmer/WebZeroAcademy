@@ -26,13 +26,15 @@
             display: flex;
             /* flex-direction: row;
             flex-wrap: wrap-reverse; */
-            flex-flow: row wrap-reverse;
+            flex-flow: row;
+            justify-content: space-between;
         }
         
         .flex div {
             background-color: rebeccapurple;
             color: wheat;
-            width: 25%;
+            /* width: 25%; */
+            width: calc(100%/3);
             text-align: center;
             padding: 20px;
         }
@@ -49,7 +51,8 @@
             background-color: rebeccapurple;
             color: wheat;
             float: left;
-            width: 25%;
+            /* width: 25%; */
+            width: calc(100%/3);
             text-align: center;
             padding: 20px;
         }
@@ -62,8 +65,8 @@
         <div>one</div>
         <div>two</div>
         <div>three</div>
-        <div>four</div>
-        <div>five</div>
+        <!-- <div>four</div>
+        <div>five</div> -->
     </div>
     <hr>
     <h3>float</h3>
@@ -71,8 +74,8 @@
         <div>one</div>
         <div>two</div>
         <div>three</div>
-        <div>four</div>
-        <div>five</div>
+        <!-- <div>four</div>
+        <div>five</div> -->
     </div>
 </body>
 
