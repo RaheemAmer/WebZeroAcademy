@@ -5,50 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task29</title>
+    <title>task34-another solution</title>
     <style>
-        * {
-            margin: 10px auto;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, Helvetica, sans-serif;
+        div {
+            background-color: red;
+            color: white;
+            padding: 20px;
+            border: 1px solid blue;
+            font-size: 80px;
+            text-align: center;
             text-transform: capitalize;
         }
         
-        p {
-            width: 650px;
-            height: 65px;
-            padding: 20px;
-            background-color: #EFEFEF;
-            font-size: 25px;
-            border-right: 5px solid #F44336;
-            margin: 20px auto;
-            position: relative;
-            counter-increment: number;
+        div:hover span {
+            display: none;
         }
         
-        p::before {
-            content: counter(number);
-            position: absolute;
-            left: -90px;
-            top: 0px;
-            background-color: #F44336;
-            padding: 20px;
-            width: 50px;
-            height: 25px;
-            color: white;
-            text-align: center;
+        div:hover:before {
+            content: "elzero";
+            color: black;
         }
     </style>
 </head>
 
 <body>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
+    <div>
+        <span> Hello Div</span>
+    </div>
 </body>
 
 </html>
