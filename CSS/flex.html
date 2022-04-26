@@ -21,13 +21,17 @@
         .flex {
             background-color: aliceblue;
             width: 600px;
+            height: 440px;
             padding: 20px;
             margin: 20px auto;
             display: flex;
             /* flex-direction: row;
             flex-wrap: wrap-reverse; */
-            flex-flow: row;
-            justify-content: space-between;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: flex-end;
+            align-content: center;
+            /* control content even is there is a space around */
         }
         
         .flex div {
@@ -37,6 +41,23 @@
             width: calc(100%/3);
             text-align: center;
             padding: 20px;
+            /* make items stretch till fit the width (Default-value = 0)  */
+            flex-grow: 1;
+            /* make items shrink till fit the width (Default-value = 1) */
+            flex-shrink: 1;
+            /* Gives auto spaces (combines width and height + respects max-width) */
+            flex-basis: auto;
+            /* flex shorthand grow [0]-shrink [1]-basis [auto] */
+            /* 
+            order: 2; to the desired element
+            order:1; to the one who will be replaced
+            */
+            /*
+            to make an element that is not inside flex be horizontally aligned with it give flex-container display inline-flex
+            */
+            /* 
+            (holy-grail using flex)
+            */
         }
         
         .float {
@@ -65,8 +86,8 @@
         <div>one</div>
         <div>two</div>
         <div>three</div>
-        <!-- <div>four</div>
-        <div>five</div> -->
+        <div>four</div>
+        <div>five</div>
     </div>
     <hr>
     <h3>float</h3>

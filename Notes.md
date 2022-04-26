@@ -515,7 +515,7 @@ cross axis => “vertical”
 5. Align-items#
 	align-items: flex-start || flex-end || center || stretch || baseline
     It defines how flex-items are laid out on the cross axis.
-
+    (Default-value: stretch=> to fit content(so if you give a flex-item different height, the others will be stretched))
 Stretch#
 The default value is stretch. This will “stretch” the flex-items so they fill the entire height of the flex container.
 
