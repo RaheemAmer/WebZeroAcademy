@@ -578,6 +578,20 @@ Examples:
     AirBnB desktop Navigation
     Twitter desktop Navigation
 -->
+
+<!-- 
+Transition:
+Duration
+Property
+Delay
+Timing Function
+-->
+
+<!-- 
+
+-->
+
+
 <!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/
