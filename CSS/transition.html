@@ -7,6 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transition</title>
     <style>
+        /* 
+        Transition:
+            Property
+            Duration
+            Timing Function 
+            Delay
+        */
+        
         * {
             -webkit-box-sizing: border-box;
             -moz-box-sizing: border-box;
@@ -17,13 +25,31 @@
             background-color: aquamarine;
             width: 200px;
             height: 100px;
+            /* transition-duration: 1s;
+            transition-delay: 0.2s; Default=zero */
+            /* transition-Property: margin-left, margin-right, width; */
+            /* (All) Not recommended - applied on everything */
+            /* transition-Property: width;
+            transition-timing-function: ease-out; */
+            /* 
+            Ease => control flow  (Default-value)
+            Linear => control flow (same speed in all conditions)
+            Ease-In => control flow (start slow then fast then finish slow) 
+            Ease-Out => control flow (start fast then slow then finish fast) 
+            Ease-In-Out => control flow (start fast finish fast)
+            */
+            transition: width 2s, height 2s;
         }
         
         .one:hover {
-            margin-left: 20px;
+            /* margin-left: 20px;
+            margin-right: 20px; */
+            width: 280px;
+            height: 280px;
         }
     </style>
 </head>
+
 
 <body>
     <div class="one">
