@@ -414,9 +414,11 @@ if you didn't add height - it will take value from padding
 }
 -->
 
+<!--
 flex-box uses two new properties:
 flex-containers and flex-items
-flex-container => group a bunch of flex-items together and positions them
+flex-container => group a bunch of flex-items together and positions them 
+-->
 
 <!-- 
 Every direct child of container is an item, flex item can be manipulated individually (container determines the layout)
@@ -599,7 +601,6 @@ Margin-collapse:
 Css variables:
     Global Variable
     Local Variables
-
 }
 (Global)
 :root{

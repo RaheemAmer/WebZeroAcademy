@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        /* 
+        flex-container
+        flex-direction:
+        flex-wrap:
+        */
+        
+        * {
+            box-sizing: border-box;
+            text-transform: capitalize;
+        }
+        
+        .flex {
+            background-color: aliceblue;
+            width: 600px;
+            padding: 20px;
+            margin: 20px auto;
+            display: flex;
+            /* flex-direction: row;
+            flex-wrap: wrap-reverse; */
+            flex-flow: row wrap-reverse;
+        }
+        
+        .flex div {
+            background-color: rebeccapurple;
+            color: wheat;
+            width: 25%;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .float {
+            overflow: hidden;
+            background-color: aliceblue;
+            width: 600px;
+            padding: 20px;
+            margin: 20px auto;
+        }
+        
+        .float div {
+            background-color: rebeccapurple;
+            color: wheat;
+            float: left;
+            width: 25%;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>flex</h3>
+    <div class="flex">
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+        <div>four</div>
+        <div>five</div>
+    </div>
+    <hr>
+    <h3>float</h3>
+    <div class="float">
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+        <div>four</div>
+        <div>five</div>
+    </div>
+</body>
+
+</html>
