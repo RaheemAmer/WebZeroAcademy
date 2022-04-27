@@ -5,50 +5,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task29</title>
+    <title>task37</title>
     <style>
         * {
-            margin: 10px auto;
-            padding: 0;
             box-sizing: border-box;
-            font-family: Arial, Helvetica, sans-serif;
-            text-transform: capitalize;
+            margin: 0px;
+            padding: 0px;
         }
         
-        p {
-            width: 650px;
-            height: 65px;
-            padding: 20px;
-            background-color: #EFEFEF;
-            font-size: 25px;
-            border-right: 5px solid #F44336;
-            margin: 20px auto;
-            position: relative;
-            counter-increment: number;
+        .parent {
+            width: 600px;
+            height: 300px;
+            display: flex;
+            margin: 0px auto;
+            background-color: #EEEEEE;
+            justify-content: space-between;
+            align-content: space-between;
+            flex-wrap: wrap;
         }
         
-        p::before {
-            content: counter(number);
-            position: absolute;
-            left: -90px;
-            top: 0px;
+        .parent div {
+            width: 30%;
+            height: 30px;
             background-color: #F44336;
-            padding: 20px;
-            width: 50px;
-            height: 25px;
             color: white;
+            margin: 5px;
+            padding: 5px;
             text-align: center;
         }
     </style>
 </head>
 
 <body>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
-    <p>This Is Very Very Long Product Title</p>
+    <div class="parent">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
 </body>
 
 </html>
