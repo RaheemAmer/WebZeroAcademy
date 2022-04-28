@@ -1,7 +1,7 @@
 # WebZeroAcademy
 
 - [Road to master CSS](https://elzero.org/study/css-2021-study-plan/)
-- 
+
 # Games to master CSS:
 - [Game1](https://cssgridgarden.com/) 
 - [Game2](https://flukeout.github.io/) 
@@ -18,3 +18,4 @@
 - [Game13](https://codingfantasy.com/games/css-grid-attack) 
 - [Game14](https://enjoycss.com/) 
 - [Game15](https://bennettfeely.com/flexplorer/) 
+- [Game16](https://codingfantasy.com/games/flexboxadventure) 
