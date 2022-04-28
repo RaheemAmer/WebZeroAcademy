@@ -1,6 +1,9 @@
 # WebZero Academy Roadmap:
 
+- [Road to master HTML](https://elzero.org/study/html-2021-study-plan/)
 - [Road to master CSS](https://elzero.org/study/css-2021-study-plan/)
+- [Road to master SASS](https://elzero.org/study/sass-2021-study-plan/)
+- [Road to master JAVASCRIPT](https://elzero.org/study/javascript-bootcamp-2021-study-plan/)
 
 # Games to master CSS:
 - [Game1](https://cssgridgarden.com/) 
