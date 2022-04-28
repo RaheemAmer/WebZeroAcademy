@@ -1,4 +1,4 @@
-# WebZeroAcademy Roadmap
+# Web Zero Academy Roadmap:
 
 - [Road to master CSS](https://elzero.org/study/css-2021-study-plan/)
 
