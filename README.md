@@ -5,7 +5,7 @@
 - [Road to master SASS](https://elzero.org/study/sass-2021-study-plan/)
 - [Road to master JAVASCRIPT](https://elzero.org/study/javascript-bootcamp-2021-study-plan/)
 
-# Games to master CSS:
+# Games to master HTML&CSS:
 - [Game1](https://cssgridgarden.com/) 
 - [Game2](https://flukeout.github.io/) 
 - [Game3](http://www.flexboxdefense.com/) 
