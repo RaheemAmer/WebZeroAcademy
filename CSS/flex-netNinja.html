@@ -26,33 +26,36 @@
         .flex-container {
             display: flex;
             background-color: #fff;
-            /* flex-wrap: wrap; */
+            flex-wrap: wrap;
         }
         
         .box {
             height: 100px;
-            min-width: 200px;
-            /* flex-grow: 1; */
+            /* min-width: 200px; */
+            /* flex-basis: 200px; */
             /* width: 320px; */
-            /* flex-grow: 1; */
+            flex-grow: 1;
         }
         
         .one {
             background-color: red;
             /* flex-grow: 1; */
             /* flex-shrink: 1; */
+            flex-basis: 100px;
         }
         
         .two {
             background-color: blue;
             /* flex-grow: 2; */
             /* flex-shrink: 2; */
+            flex-basis: 200px;
         }
         
         .three {
             background-color: green;
             /* flex-grow: 5; */
             /* flex-shrink: 3; */
+            flex-basis: 300px;
         }
     </style>
 </head>
