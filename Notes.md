@@ -574,6 +574,10 @@ Beware of margin: auto alignment on flex items.
 Remember what I said earlier? When you use margin:auto on a flex-item, the direction (left, right or both) that has the value auto will take up any empty spaces available. It doesn’t end with just one side. What if you wanted a margin auto alignment on both sides of a flex-item?
 -->
 
+<!-- 
+When to use flex Grow:
+when you want flex-items to scale up to take remaining width from the flex-container
+-->
 <!--
 Examples:
     Bootstrapped Navigation

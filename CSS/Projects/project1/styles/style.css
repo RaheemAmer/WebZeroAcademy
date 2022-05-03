@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #eee;
+}
+
+.wrapper {
+    background-color: #333;
+    width: 100%;
+    max-width: 768px;
+    margin: 0px auto;
+}
+
+
+/* Menu styles */
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+
+/*
+    CSS: breakpoints
+Extra small devices 
+(phones, 600px and down) 
+@media only screen and (max-width: 600px) 
+
+Small devices 
+(portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px)
+
+Medium devices 
+(landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) 
+
+Large devices 
+(laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) 
+
+Extra large devices 
+(large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) 
+*/
+
+
+/* Flex styles */
+
+@media screen and (min-width: 768px) {
+    nav ul {
+        display: flex;
+        justify-content: flex-start;
+    }
+    nav li {
+        flex: 1 1 0;
+    }
+}
