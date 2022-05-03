@@ -1,5 +1,4 @@
 # Important Concepts:
-- Introduction
 - Inheritance
 - The Cascade
 - Dealing with the box model
