@@ -7,7 +7,7 @@
 
 # Summaries and Concepts
 - [HTML Concepts](https://github.com/RaheemAmer/WebZeroAcademy/blob/main/HTML-Concepts.md)
-
+- [CSS Concepts](https://github.com/RaheemAmer/WebZeroAcademy/blob/main/CSS-Concepts.md)
 
 
 # Games to master HTML&CSS:
