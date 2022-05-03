@@ -5,6 +5,11 @@
 - [Road to master SASS](https://elzero.org/study/sass-2021-study-plan/)
 - [Road to master JAVASCRIPT](https://elzero.org/study/javascript-bootcamp-2021-study-plan/)
 
+# Summaries and Concepts
+- [HTML Concepts](https://github.com/RaheemAmer/WebZeroAcademyy/blob/main/HTML-Concepts.md)
+
+
+
 # Games to master HTML&CSS:
 - [Game1](https://cssgridgarden.com/) 
 - [Game2](https://flukeout.github.io/) 
