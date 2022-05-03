@@ -576,8 +576,29 @@ Remember what I said earlier? When you use margin:auto on a flex-item, the direc
 
 <!-- 
 When to use flex Grow:
-when you want flex-items to scale up to take remaining width from the flex-container
+when you want flex-items to scale up to take remaining width from the flex-container.
+
+Flex-grow default size is zero
+
+When to use flex-shrink?
+when the sum of flex-items have bigger width than the container, so you tell them instead of over-sizing the flex-container shrink to fit it.
+Flex-grow default size is one
+
+Default behavior:
+when giving the flex-items a width bigger than the flex-container it will shrink then to fit the parent
 -->
+<!-- 
+order=> least value of number equals highest priority
+-->
+<!-- 
+flex-basis:
+determines the width or height of the element or flex-item according to the flex-direction of flex-container
+
+if we gave it row - then width 
+if we gave i column - then height
+flex-basis default size is auto
+ -->
+
 <!--
 Examples:
     Bootstrapped Navigation
