@@ -6,7 +6,7 @@
 - [Road to master JAVASCRIPT](https://elzero.org/study/javascript-bootcamp-2021-study-plan/)
 
 # Summaries and Concepts
-- [HTML Concepts](https://github.com/RaheemAmer/WebZeroAcademyy/blob/main/HTML-Concepts.md)
+- [HTML Concepts](https://github.com/RaheemAmer/WebZeroAcademy/blob/main/HTML-Concepts.md)
 
 
 
