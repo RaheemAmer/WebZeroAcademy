@@ -640,10 +640,29 @@ var(mainColor, red)
     color: var(--mainColor);
 }
 -->
+<!-- 
+Header
+Main
+Footer
+-->
+
+<!-- 
+In order to work align-content, we must have multiple wrapping rows - space distributed between them and also oparent's height to be taller than the children
+-->
+
+<!-- 
+shorthand for align-content and justify content is to use place-content: center
+-->
+
+<!-- 
+Justify content - according to content (Scale up according to width and height of content)
+Align-items - Scale up into the line of content more like baseline
+-->
 
 <!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/
 https://www.educative.io/courses/understanding-flexbox-everything-you-need-to-know/B8nngXNzgQX
 https://www.educative.io/courses/understanding-flexbox-everything-you-need-to-know/m2OD8lPmjO3
+https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts/233002-introduction/1007804-intro-why-the-course-is-formatted-in-this-way
  -->
