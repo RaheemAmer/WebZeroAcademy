@@ -9,6 +9,8 @@
 - [HTML Concepts](https://github.com/RaheemAmer/WebZeroAcademy/tree/main/Concepts/HTML-Concepts.md)
 - [CSS Concepts](https://github.com/RaheemAmer/WebZeroAcademy/tree/main/Concepts/HTML-Concepts.md)
 
+# Important Videos:
+- [The state of CSS 2021 results are in!](https://www.youtube.com/watch?v=gqrKn6FOA7g)
 
 # Games to master HTML&CSS:
 - [Game1](https://cssgridgarden.com/) 
