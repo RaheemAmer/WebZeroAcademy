@@ -7,10 +7,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex-nested menu</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0x;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: rebeccapurple;
+        }
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 250px;
+            justify-content: space-evenly;
+        }
+        
+        .container div {
+            margin-right: 50%;
+            margin-bottom: 50%;
+            width: 100px;
+            height: 100px;
+            background-color: yellowgreen;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="container">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!-- <div class="wrapper">
         <nav>
             <ul>
                 <li>
@@ -31,7 +63,7 @@
                 <li><a href="#" class="tw">Twitter</a></li>
             </ul>
         </nav>
-    </div>
+    </div> -->
 </body>
 
 </html>

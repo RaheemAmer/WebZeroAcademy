@@ -359,10 +359,8 @@ background-color: yellow;
 
 Pseudo elements (most important) (before, after and content)
 
----------------------------------------------
-
 after and before pseudo element:
-we have to add content in order to nake the element appear
+we have to add content in order to make the element appear
 <!-- 
 .one::after{
     content:""
@@ -647,11 +645,11 @@ Footer
 -->
 
 <!-- 
-In order to work align-content, we must have multiple wrapping rows - space distributed between them and also oparent's height to be taller than the children
+In order to work align-content, we must have multiple wrapping rows - space distributed between them and also o parent's height to be taller than the children
 -->
 
 <!-- 
-shorthand for align-content and justify content is to use place-content: center
+shorthand for align-content and justify content is to use place-content: center 
 -->
 
 <!-- 
