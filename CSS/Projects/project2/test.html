@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>task37</title>
+    <title>test</title>
     <style>
         * {
             margin: 0px;
@@ -15,29 +15,30 @@
             font-size: 19px;
         }
         
-        .parent {
-            width: 600px;
-            height: 300px;
+        .container {
             display: flex;
-            margin: 20px auto;
+            height: 400px;
+            width: 600px;
             background-color: #eee;
-            flex-wrap: wrap;
-            align-content: space-between;
-            gap: 8px;
-            padding: 10px;
+            flex-flow: row wrap;
+            padding: 20px;
+            margin: 20px auto;
+            align-items: center;
+            /* justify-content: center; */
+            gap: 1px;
         }
         
-        .parent div {
-            padding: 10px;
+        .container div {
+            background-color: red;
+            width: calc(99%/3);
+            padding: 20px;
             text-align: center;
-            width: calc(97%/3);
-            background-color: #F44336;
         }
     </style>
 </head>
 
 <body>
-    <div class="parent">
+    <div class="container">
         <div>1</div>
         <div>2</div>
         <div>3</div>
