@@ -5,45 +5,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>task37</title>
+    <title>task39</title>
     <style>
         * {
             box-sizing: border-box;
             margin: 0px;
             padding: 0px;
+            color: white;
         }
         
-        .parent {
+        .parent-3 {
             width: 600px;
             height: 300px;
-            display: flex;
-            margin: 0px auto;
             background-color: #EEEEEE;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
             justify-content: space-between;
-            align-content: space-between;
-            flex-wrap: wrap;
         }
         
-        .parent div {
-            width: 30%;
-            height: 30px;
-            background-color: #F44336;
+        .parent-3 div {
+            background-color: #009688;
             color: white;
-            margin: 5px;
-            padding: 5px;
-            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            padding: 10px;
+            flex: 0 1 31%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .parent-3 .two {
+            max-width: 50%;
+        }
+        
+        .parent-3 .one,
+        .parent-3 .three {
+            align-self: flex-end;
         }
     </style>
 </head>
 
 <body>
-    <div class="parent">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
+    <div class="parent-3">
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div class="three">3</div>
     </div>
 </body>
 
