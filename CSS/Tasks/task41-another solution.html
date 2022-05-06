@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            color: black;
+            background-color: #ddd;
+        }
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            border: 2px solid red;
+            background-color: white;
+            height: 100vh;
+        }
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .item-0 {
+            height: 10%;
+            flex-grow: 0;
+            flex-basis: 15%;
+            border: 2px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .item-1 {
+            height: 10%;
+            flex-grow: 0;
+            flex-basis: 85%;
+            border: 2px solid red;
+        }
+        
+        .item-1 ul {
+            list-style: none;
+            display: flex;
+            border: 2px solid red;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .item-2 {
+            flex-grow: 0;
+            flex-basis: 25%;
+            border: 2px solid red;
+        }
+        
+        .item-3 {
+            flex-grow: 0;
+            flex-basis: 75%;
+            border: 2px solid red;
+        }
+        
+        .item-4 {
+            flex-grow: 0;
+            flex-basis: 100%;
+            border: 2px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item-0">
+            <p>Logo</p>
+        </div>
+        <div class="item-1">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="item-2"></div>
+        <div class="item-3"></div>
+        <div class="item-4"></div>
+    </div>
+</body>
+
+</html>
