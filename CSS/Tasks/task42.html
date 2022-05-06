@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task41</title>
+    <style>
+         :root {
+            --colorPage: #EEEEEE;
+            --color-content: #DDDDDD;
+            --paddingPage: 1%;
+            --marginContent: 1%;
+            --padding-content: 15px;
+        }
+        
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .links {
+            list-style: none;
+        }
+        
+        .links li {
+            display: inline-block;
+            padding-left: 5px;
+        }
+        
+        .page {
+            max-width: 100%;
+            background-color: var(--colorPage);
+            padding: var(--paddingPage);
+            display: flex;
+            flex-flow: column nowrap;
+            border: 1px solid black;
+        }
+        /* header */
+        
+        .header {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            margin-bottom: var(--marginContent);
+        }
+        
+        .header .logo {
+            flex-basis: 8%;
+            background-color: var(--color-content);
+            padding: 15px 20px;
+            text-align: center;
+        }
+        
+        .header .links {
+            flex-basis: 91%;
+            background-color: var(--color-content);
+            padding: var(--padding-content);
+            text-align: right;
+        }
+        /* main-area */
+        
+        .main-area {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            margin-bottom: var(--marginContent);
+        }
+        
+        .main-area .content {
+            flex-basis: 65%;
+            background-color: var(--color-content);
+            height: 500px;
+            padding: var(--padding-content);
+        }
+        
+        .main-area .sidebar {
+            flex-basis: 34%;
+            background-color: var(--color-content);
+            height: 500px;
+            padding: var(--padding-content);
+        }
+        /* footer */
+        
+        .footer {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            flex: 0 1 100%;
+            padding: var(--padding-content);
+            background-color: var(--color-content);
+        }
+    </style>
+</head>
+
+<body>
+    <section class="page">
+        <header class="header">
+            <div class="logo">Logo</div>
+            <ul class="links">
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </header>
+        <div class="main-area">
+            <div class="content">Content</div>
+            <div class="sidebar">Sidebar</div>
+        </div>
+        <footer class="footer">
+            <div class="copyright">Copyright 2021</div>
+            <div class="design">Designed By Elzero</div>
+        </footer>
+    </section>
+</body>
+
+</html>
