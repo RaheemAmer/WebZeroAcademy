@@ -750,8 +750,7 @@ grid-column: span 4; => take 4 columns - ignoring start and end
 pick a child and put 
 grid-column: 2/ span 3; it will leave the first space - (offset) and take 3 columns
 
-grid-row:
-
+grid-row:same like column
 -->
 <!-- if we added row 0r column more than listed a row or column will be added -->
 <!-- 
