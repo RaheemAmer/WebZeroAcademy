@@ -738,8 +738,22 @@ justify-content: flex-end
 -->
 
 <!-- 
+grid for child:
+starts with column 1 and end with 5
+grid-column-start:1
+grid-column-end:5
+grid-column:1/5
+
+instead of doing this, we do
+grid-column: span 4; => take 4 columns - ignoring start and end
+
+pick a child and put 
+grid-column: 2/ span 3; it will leave the first space - (offset) and take 3 columns
+
+grid-row:
 
 -->
+<!-- if we added row 0r column more than listed a row or column will be added -->
 <!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/
