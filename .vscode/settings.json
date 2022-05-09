@@ -3,6 +3,7 @@
         "combinators",
         "divs",
         "Elzero",
+        "grayscale",
         "rgba",
         "vmin"
     ]

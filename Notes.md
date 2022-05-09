@@ -657,6 +657,89 @@ Justify content - according to content (Scale up according to width and height o
 Align-items - Scale up into the line of content more like baseline
 -->
 
+
+<!-- 
+filter: grayscale(100%) - blur(4px) - invert(100%) - 
+-->
+
+<!-- 
+Gradients:
+linear-gradient(Direction || Angle, color stop1, color stop2)
+
+background-image: linear-gradient(0deg = top, red, green)
+background-image: linear-gradient(90deg = right, red, green)
+background-image: linear-gradient(to right, red 80%, green)
+background-image: linear-gradient(to right, red 20%, green 20%, green 100%)
+background-image: linear-gradient(to right, red 20%, green 20%, yellow 30%, yellow 50%)
+
+width:800px;
+height:200px;
+-->
+
+<!-- 
+<p contenteditable="true">
+content can be edited
+</p>
+
+change caret-color => 
+caret-color: red;
+
+pointer-events: none;
+ -->
+
+<!-- 
+Grid system
+Grid:
+number of columns is 3
+measurement unit [px, %, auto, repeat, fraction ]
+grid-template-columns: 100px 100px 100px ;
+grid-template-columns: repeat(5, auto) ;
+grid-template-columns: 100px 200px 25% auto;
+100px -200px -> 300px
+25% from 800px => 200px
+100px - 200px - 500px
+
+fr = 1 time space left
+fraction vs auto: 
+fraction is greedy
+auto is shy
+
+width is 800px
+100px 100px 1fr 1fr
+each fr equals 300px
+
+100px 100px 1fr 2fr
+each fr equals 100px
+
+auto min-width is scaled up at least to fit content
+-->
+
+<!-- 
+grid-template-rows: 100px ;
+so if i made 3 columns and added one value in rows then this height will be applied only on first row  and the rest is divided on the remainder rows
+
+number of rows height:
+grid-template-rows: repeat(5, auto) ;
+
+row-gap:20px
+column-gap:20px
+gap:20px [row-gap , column-gap]
+-->
+
+<!--
+no movement if there is no space left (if you used fr for example) 
+so if we have  
+justify-content: flex-end
+-->
+
+<!--
+ grid-template-areas:"logo logo logo nav nav nav" 
+ grid-area:nav
+-->
+
+<!-- 
+
+-->
 <!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/
@@ -664,5 +747,3 @@ https://www.educative.io/courses/understanding-flexbox-everything-you-need-to-kn
 https://www.educative.io/courses/understanding-flexbox-everything-you-need-to-know/m2OD8lPmjO3
 https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts/233002-introduction/1007804-intro-why-the-course-is-formatted-in-this-way
  -->
-
-<!--test  -->
