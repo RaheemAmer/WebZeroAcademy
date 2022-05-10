@@ -753,6 +753,27 @@ grid-column: 2/ span 3; it will leave the first space - (offset) and take 3 colu
 grid-row:same like column
 -->
 <!-- if we added row 0r column more than listed a row or column will be added -->
+<!--
+grid-template-columns:repeat(6,, 1fr)
+there are 3 rows - 6 columns
+grid-row-start:2;
+grid-row-end:3;
+
+grid-column-start:2;
+grid-column-end:2;
+
+grid-area: 2/2/5/6;
+grid-row-start:2;
+grid-column-start:2;
+grid-row-end:3;
+grid-column-end:2;
+-->
+<!-- 
+    grid-template-columns: repeat(3,minmax(90px, 1fr));
+-->
+<!-- 
+grid-template-areas: "head head head head head"
+->
 <!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/
