@@ -776,7 +776,24 @@ grid-template-areas: "head head head head head"
 ->
 <!--Autofill - calculates the number of column according to the value of the width - so if we have a full width of 500 and have width 100 for each column, then they're gonna be 5 columns   -->
 <!-- grid-template-columns:repeat(auto-fill, minmax(200px, 1fr)) -->
+<!-- 
+Absolute Links
 
+Links to pages on other websites on the internet are called absolute link
+
+Relative Links
+
+Links to other pages within our own website are called relative links.
+-->
+<!-- 
+The form element accepts two essential attributes; the first is the action attribute which takes a URL value that tells the form where it should send its data to be processed. Later in the curriculum, we will learn to hook backend systems up to frontend forms using this attribute. For now, it’s only essential to know what the action attribute is used for.
+
+The second is the method attribute which tells the browser which HTTP request method it should use to submit the form. The GET and POST request methods are the two you will find yourself using the most.
+
+We use GET when we want to retrieve something from a server. For example, Google uses a GET request when you search as it gets the search results.
+
+POST is used when we want to change something on the server, for example, when a user makes an account or makes a payment on a website.
+-->
 <!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/
