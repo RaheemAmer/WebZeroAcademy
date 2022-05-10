@@ -794,6 +794,12 @@ We use GET when we want to retrieve something from a server. For example, Google
 
 POST is used when we want to change something on the server, for example, when a user makes an account or makes a payment on a website.
 -->
+
+<!-- 
+Styling Validations
+
+We can target form controls that have passed or failed validations using the :valid and :invalid pseudo-classes.
+-->
 <!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/
