@@ -4,6 +4,7 @@
         "divs",
         "Elzero",
         "grayscale",
+        "minmax",
         "rgba",
         "vmin"
     ]
