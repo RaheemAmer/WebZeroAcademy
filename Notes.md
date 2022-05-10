@@ -774,6 +774,8 @@ grid-column-end:2;
 <!-- 
 grid-template-areas: "head head head head head"
 ->
+<!--Autofill - calculates the number of column according to the value of the width - so if we have a full width of 500 and have width 100 for each column, then they're gonna be 5 columns   -->
+
 <!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/
