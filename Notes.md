@@ -800,6 +800,26 @@ Styling Validations
 
 We can target form controls that have passed or failed validations using the :valid and :invalid pseudo-classes.
 -->
+
+<!-- 
+2D - Transform:
+scaleX - horizontal => default value = 1
+scaleY - vertical => default value = 1  
+scale - shorthand - if you want to apply both of them
+
+there is a huge difference between width and scaling:
+ - width only enlarge dimensions of box
+ - scale, stretch everything out, margin, padding and content are all enlarged
+
+what if we gave negative value?
+ it will be flipped into the opposite direction 
+
+Examples:
+ transform: scaleX(-1);
+ transform: scale(-1)
+ transition: 0.5s
+-->
+
 <!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/
