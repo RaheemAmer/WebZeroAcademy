@@ -657,7 +657,6 @@ Justify content - according to content (Scale up according to width and height o
 Align-items - Scale up into the line of content more like baseline
 -->
 
-
 <!-- 
 filter: grayscale(100%) - blur(4px) - invert(100%) - 
 -->
@@ -820,6 +819,65 @@ Examples:
  transition: 0.5s
 -->
 
+<!-- 
+ 2d transform:
+ rotate
+
+Measuring units:
+ deg => degree
+ rad => Radians
+ grad => Gradians
+ turn => Turn
+-->
+
+<!-- 
+ transform: rotate(0deg);
+ transform: rotate(10deg);
+ transform: rotate(20deg);
+ transform: rotate(30deg);
+ //
+ transform: rotate(90deg);
+ transform: rotate(180deg);
+ transform: rotate(360deg);
+ //
+ transform: rotate(0.5turn);
+ transform: rotate(0.25turn);
+ //
+ Negative value?
+ rotate in the opposite direction
+ //
+ transition: 0.5s;
+-->
+
+<!-- 
+Use Cases of scale and rotate:
+ img in html file
+
+ .image{
+     overflow: hidden;
+     width: 720px;
+     height: 350px
+ }
+  .image img{
+  transition: 0.3s;
+  }
+
+  .image:hover img{
+      transform: scale(1.3);
+  }
+-->
+
+<!-- 
+ If we put 
+ transform: scale(1.3;)
+ transform: rotate(180deg);
+
+ => Scale won't work, cuz rotate resets the work done by scale
+
+ Solution if we want to use both of them:
+    transform: scale(1.3) rotate(5deg);
+    opacity: 0.6;
+-->
 <!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/

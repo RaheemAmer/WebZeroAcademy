@@ -3,6 +3,7 @@
         "combinators",
         "divs",
         "Elzero",
+        "Gradians",
         "grayscale",
         "minmax",
         "rgba",
