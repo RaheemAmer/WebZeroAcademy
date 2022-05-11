@@ -878,6 +878,31 @@ Use Cases of scale and rotate:
     transform: scale(1.3) rotate(5deg);
     opacity: 0.6;
 -->
+
+<!-- 
+    2d Transform translate:
+    measuring units => px, rem or percentages
+    2nd value default number is zero
+
+    Example:
+    (horizontally)
+    transform: translate(100px, 0);
+    transform: translate(-100px, 0);
+
+    (vertically)
+    transform: translate(0x, 100px);
+    transform: translate(0, -100px);
+
+    Why we use translate instead of margin padding and any other stuff?
+    => better in animation, better performance and many more stuff
+
+    Centering a div using translate?
+    ->  transform: translate(-50%, 50%);
+
+    Note:
+    Don't forget to use prefixes
+-->
+
 <!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/
