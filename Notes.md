@@ -968,6 +968,10 @@ Use Cases of scale and rotate:
             background-color: blue;
         }
     }
+    ---
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 -->
 
 <!-- 
