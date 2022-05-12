@@ -925,6 +925,10 @@ Use Cases of scale and rotate:
 -->
 
 <!-- 
+    3d Transform
+    transform: rotate3d(0, 1, 1, (5deg));
+-->
+<!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/
 https://www.educative.io/courses/understanding-flexbox-everything-you-need-to-know/B8nngXNzgQX
