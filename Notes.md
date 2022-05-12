@@ -917,6 +917,13 @@ Use Cases of scale and rotate:
     note:
     order of functions matter
 -->
+
+<!-- 
+    origin
+    picking a main point
+    transform-origin: 50% 50% or center center
+-->
+
 <!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/
