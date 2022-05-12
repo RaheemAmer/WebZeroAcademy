@@ -21,7 +21,7 @@ body {
     background-color: royalblue;
     border-radius: 50%;
     margin: 0px 15px;
-    animation: up-down 0.9s infinite;
+    animation: up-down 0.9s infinite alternate;
 }
 
 .load .one {
@@ -39,5 +39,6 @@ body {
 @keyframes up-down {
     100% {
         opacity: 0.2;
+        transform: translateY(-20px);
     }
 }
