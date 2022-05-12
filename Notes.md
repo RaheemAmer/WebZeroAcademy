@@ -904,9 +904,18 @@ Use Cases of scale and rotate:
 -->
 
 <!-- 
-transform: skewX(10deg)
-transform: skewY(120deg)
-transform: skew(10deg, 50deg)
+    Skew
+    transform: skewX(10deg)
+    transform: skewY(120deg)
+    transform: skew(10deg, 50deg)
+-->
+
+<!--
+    Matrix
+    You only write value, not degrees or measurement tools
+    transform: matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY());
+    note:
+    order of functions matter
 -->
 <!-- 
 Reference:
