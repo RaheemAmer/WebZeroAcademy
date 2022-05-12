@@ -925,8 +925,15 @@ Use Cases of scale and rotate:
 -->
 
 <!-- 
-    3d Transform
+    3d Transform (x, y, z)
     transform: rotate3d(0, 1, 1, (5deg));
+-->
+
+<!-- 
+    3d Transform 
+    translate3d(x, y, z)
+    perspective > decide the distance between the parent and the child- by increasing value, you will reach the vanishing point
+    perspective-origin
 -->
 <!-- 
 Reference:
