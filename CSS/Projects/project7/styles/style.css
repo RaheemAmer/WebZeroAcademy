@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 60px;
+}
+
+.box {
+    margin: 50px auto;
+    width: 400px;
+    height: 300px;
+    animation-name: change-color;
+    animation-duration: 6s;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes change-color {
+    /* from {
+        background-color: aqua;
+    }
+    to {
+        background-color: blueviolet;
+    } */
+    0% {
+        background-color: aqua;
+    }
+    25% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: grey;
+    }
+    85% {
+        background-color: maroon;
+    }
+    100% {
+        background-color: blueviolet;
+    }
+}

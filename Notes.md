@@ -946,6 +946,31 @@ Use Cases of scale and rotate:
 -->
 
 <!-- 
+    Animation - keyframes
+    ---
+    give animation name to the desired div
+    animation-name: change-color
+    animation-duration: 6s;
+    ----
+    @keyframes change-color {
+        from {
+            background-color: red;
+        }
+        to {
+            background-color: blue;
+        }
+
+        0% {
+            background-color: red;
+        }
+
+        100% {
+            background-color: blue;
+        }
+    }
+-->
+
+<!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/
 https://www.educative.io/courses/understanding-flexbox-everything-you-need-to-know/B8nngXNzgQX
