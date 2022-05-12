@@ -975,6 +975,13 @@ Use Cases of scale and rotate:
 -->
 
 <!-- 
+    animation-direction, fill-mode, play-state, delay
+    animation-fill-mode:forwards ;
+    after finishing the pattern, it stops with the last keyframe attributes
+
+-->
+
+<!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/
 https://www.educative.io/courses/understanding-flexbox-everything-you-need-to-know/B8nngXNzgQX
