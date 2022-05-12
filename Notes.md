@@ -935,6 +935,16 @@ Use Cases of scale and rotate:
     perspective > decide the distance between the parent and the child- by increasing value, you will reach the vanishing point
     perspective-origin
 -->
+
+<!-- 
+    back-face visibility and flip product
+    default value is visible
+    backface-visibility: hidden
+    ---
+    transform-style: flat; => doesn't preserve it's position in 3rd
+    transform-style: preserve-3d;
+-->
+
 <!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/
