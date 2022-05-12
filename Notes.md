@@ -904,6 +904,11 @@ Use Cases of scale and rotate:
 -->
 
 <!-- 
+transform: skewX(10deg)
+transform: skewY(120deg)
+transform: skew(10deg, 50deg)
+-->
+<!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/
 https://www.educative.io/courses/understanding-flexbox-everything-you-need-to-know/B8nngXNzgQX
