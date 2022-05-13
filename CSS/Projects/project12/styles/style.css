@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.parent {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.parent>div {
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 290px;
+}
+
+
+/* @media (min-width: 1000px) and (max-width:1400px) {
+    .parent>div {
+        background-color: red;
+    }
+} */

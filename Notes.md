@@ -1004,7 +1004,7 @@ Use Cases of scale and rotate:
   - [Attribute=Value]
   - Element[Attribute=Value] => input[type="submit"]
   - [Attribute~=Value] => Contains A Word
-  - [Attribute*=Value] => Contains A Atring
+  - [Attribute*=Value] => Contains A String
   - [Attribute^=Value] => Start With A String
 -->
 
@@ -1035,6 +1035,12 @@ Use Cases of scale and rotate:
   - ::selection
   - ::placeholder
 -->
+
+<!-- 
+    Responsive - Media Queries
+
+-->
+
 <!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/
