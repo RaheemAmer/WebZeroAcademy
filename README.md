@@ -9,6 +9,9 @@
 - [HTML Concepts](https://github.com/RaheemAmer/WebZeroAcademy/tree/main/Concepts/HTML-Concepts.md)
 - [CSS Concepts](https://github.com/RaheemAmer/WebZeroAcademy/tree/main/Concepts/HTML-Concepts.md)
 
+# Challenges
+- [Frontend-Challenges](https://elzero.org/category/challenges/front-end-challenges/)
+
 # Important Videos:
 - [The state of CSS 2021 results are in!](https://www.youtube.com/watch?v=gqrKn6FOA7g)
 
