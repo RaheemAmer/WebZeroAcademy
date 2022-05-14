@@ -1038,7 +1038,15 @@ Use Cases of scale and rotate:
 
 <!-- 
     Responsive - Media Queries
+    <link rel="stylesheet" href="css/print.css" media="print" or media="(width:5px) and font-size:5px">
+    <style media="print>.parent{font-size:10px;}</style>
+    (Breakpoint)
+-->
 
+<!-- 
+    Mobile First Design:
+    Test Devices
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 -->
 
 <!-- 
@@ -1047,4 +1055,6 @@ https://www.internetingishard.com/html-and-css/flexbox/
 https://www.educative.io/courses/understanding-flexbox-everything-you-need-to-know/B8nngXNzgQX
 https://www.educative.io/courses/understanding-flexbox-everything-you-need-to-know/m2OD8lPmjO3
 https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts/233002-introduction/1007804-intro-why-the-course-is-formatted-in-this-way
+https://css-tricks.com/a-complete-guide-to-css-media-queries/
+https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
  -->

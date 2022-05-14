@@ -6,18 +6,19 @@
 
 .parent {
     display: flex;
-    width: 1200px;
-    justify-content: space-between;
     flex-wrap: wrap;
-    margin: 20px auto;
+    justify-content: space-evenly;
 }
 
-.parent>div {
-    background-color: royalblue;
+.parent div {
+    padding: 20px;
+    background-color: red;
     color: white;
-    text-align: center;
     font-size: 20px;
-    width: 290px;
+    text-align: center;
+    font-weight: bold;
+    flex-basis: 100%;
+    margin-bottom: 5px;
 }
 
 
@@ -26,3 +27,43 @@
         background-color: red;
     }
 } */
+
+
+/*  mobile screes*/
+
+@media (max-width: 767px) {}
+
+
+/*  small screes*/
+
+
+/* @media (min-width: 768px) and (max-width:991px) {
+    .parent div {
+        flex-basis: calc(50% - 10px);
+    }
+} */
+
+@media (min-width: 768px) {
+    .parent div {
+        flex-basis: calc(50% - 10px);
+    }
+}
+
+
+/*  medium screes*/
+
+@media (min-width: 992px) {
+    .parent div {
+        flex-basis: calc(25% - 5px);
+    }
+}
+
+
+/*  large screes*/
+
+@media (min-width: 1200px) {}
+
+
+/*  custom media */
+
+@media (max-width: 1199px) {}
