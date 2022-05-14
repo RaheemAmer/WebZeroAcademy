@@ -1,0 +1,63 @@
+body {
+    background-color: #333;
+}
+
+.image {
+    width: 400px;
+    height: 250px;
+    margin: 20px auto;
+    color: #fff;
+    position: relative;
+}
+
+.image:hover img {
+    opacity: 0.1;
+}
+
+.image:hover h3,
+.image:hover span {
+    opacity: 1;
+}
+
+.image:hover h3 {
+    transition-delay: 0.35s;
+    transition-duration: 0.6s;
+}
+
+.image:hover .date {
+    transition-delay: 0.75s;
+    transition-duration: 0.6s;
+}
+
+.image:hover .views {
+    transition-delay: 0.95s;
+    transition-duration: 0.6s;
+}
+
+.image img {
+    transition: 0.3s;
+}
+
+.image h3,
+.image span {
+    position: absolute;
+    opacity: 0;
+}
+
+.image h3 {
+    top: 15px;
+    left: 15px;
+    margin: 0;
+}
+
+.image span {
+    bottom: 15px;
+}
+
+.image .date {
+    left: 15px;
+}
+
+.image .views {
+    right: 15px;
+}
