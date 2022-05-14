@@ -1050,6 +1050,23 @@ Use Cases of scale and rotate:
 -->
 
 <!-- 
+    Create your framework
+    Make custom css group (If you gonna use it in many cases - if you have a lot of thing so you group it)
+-->
+
+<!-- 
+    Css Global Values:
+    inherit
+    initial => default value for any element is inline and browser style agent differentiate between elements like p, heading and others by changing display's value into block
+    color property's value differ from browser to another
+    unset
+        if inherit => inherit (If it can inherit it's value then go for it)
+        if not => initial (If it can't inherit it's value then go for initial value)
+    revert css level [4] - make it uses styles of user agent
+    all    
+-->
+
+<!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/
 https://www.educative.io/courses/understanding-flexbox-everything-you-need-to-know/B8nngXNzgQX
