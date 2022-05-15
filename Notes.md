@@ -1077,7 +1077,16 @@ Use Cases of scale and rotate:
 
     in order to reassign it's value, order of unset is important
     so unset is better be oat the top to remove the default value
+
+    Give image width: (percentage)
+    height: auto
+    give it max-width instead of just width when using height:auto
 -->
+
+<!-- 
+    there is attribute in image called loading="lazy" => works on firefox
+-->
+
 <!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/
