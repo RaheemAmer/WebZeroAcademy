@@ -1067,6 +1067,18 @@ Use Cases of scale and rotate:
 -->
 
 <!-- 
+    Notes:
+    use paddings instead of margins for (a) buttons
+-->
+
+<!-- 
+    Reset all the default values for button by using:
+    all: unset;
+
+    in order to reassign it's value, order of unset is important
+    so unset is better be oat the top to remove the default value
+-->
+<!-- 
 Reference:
 https://www.internetingishard.com/html-and-css/flexbox/
 https://www.educative.io/courses/understanding-flexbox-everything-you-need-to-know/B8nngXNzgQX
